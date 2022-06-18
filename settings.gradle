@@ -1,0 +1,9 @@
+pluginManagement {
+	repositories {
+		mavenLocal() // For Development purposes
+		maven { url = 'https://maven.mgnet.work'} // For full releases
+		maven { url = "https://maven.fabricmc.net/" }
+		gradlePluginPortal()
+		mavenCentral()
+	}
+}
